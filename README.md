@@ -17,9 +17,13 @@ composer require devtarekmia/spell-money
 ## Usage
 
 ```php
-$spellMoney = new TarekMia\SpellMoney();
 
-spellMoney->spell(4586); // four thousand five hundred and eighty six taka
+use TarekMia\SpellMoney\SpellMoney;
+
+
+$spellMoney = new SpellMoney();
+
+$spellMoney->spell(4586); // four thousand five hundred and eighty six taka
 $spellMoney->spell(25.85); // twenty five taka and eighty five paisa
 
 // example of big values
