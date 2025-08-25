@@ -27,7 +27,7 @@ $spellMoney->spell(4586); // four thousand five hundred and eighty six taka
 $spellMoney->spell(25.85); // twenty five taka and eighty five paisa
 
 // example of big values
-$spellMoney->spell(548752154836.52); // eight hundred seventy five crore twenty one lakh fifty four thousand eight hundred thirty six taka and fifty two paisa
+$spellMoney->spell(8752154836.52); // eight hundred seventy five crore twenty one lakh fifty four thousand eight hundred thirty six taka and fifty two paisa
 ```
 
 ## Testing
